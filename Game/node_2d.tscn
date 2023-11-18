@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dyr6vkb1ncfcc"]
+
+[ext_resource type="Script" path="res://node_2d.gd" id="1_bjq1y"]
+[ext_resource type="Texture2D" uid="uid://b2106r356s530" path="res://plaerdark.png" id="1_xlv7y"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_bjq1y")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(58, 562)
+scale = Vector2(0.226074, 0.226074)
+texture = ExtResource("1_xlv7y")
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
